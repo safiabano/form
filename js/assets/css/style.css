@@ -1,0 +1,54 @@
+form{
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: burlywood;
+    border: 10px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 10px 20px 10px  gray;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+#emailid{
+    background-image: url("../images/email\ png.jpg");
+    background-size: 20px;
+     /* background-position: right; */
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    width: 150px;
+}
+#passwordid{
+    background-image: url("../images/lock\ png.jpg");
+    background-size: 15px;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    width: 150px;
+}
+input{
+    border-radius: 30px;
+    height: 20px;
+}
+input:hover{
+    background-color: cornflowerblue;
+}
+input:focus{
+    background-color: greenyellow;
+}
+button{
+    background-color: brown;
+    border-radius: 20px;
+    padding: 5px;
+    width: 90px;
+    color: white;
+    /* box-shadow:10px 10px 10px  rgb(159, 160, 152) ; */
+}
+button:hover{
+    background-color: darkkhaki;
+    color: black;
+}
